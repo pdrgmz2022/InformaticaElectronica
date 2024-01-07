@@ -1,0 +1,40 @@
+
+.logo-text {
+    margin: 0;/* es el titulo de la empresa*/
+    color: blue;
+}
+
+ #logo{
+    width: 90px;
+    height: auto;
+    margin-left: 10px;
+    text-align: center;
+    align-items: center;
+} 
+
+.social-icon {
+    width: 40px; /* Ajusta el tamaño de los iconos de redes sociales según sea necesario */
+    height: auto;
+    
+}
+header img {
+    border-radius: 50%;
+    /* width: 70px;
+    height: 70px;
+    margin-left: 15px;  */
+   
+} 
+footer img {
+   
+    /* width: 70px;
+    height: 70px; 
+    margin-left: 15px;  */
+    border-radius: 50%;
+   
+} 
+#contact{
+    background-image: url('../img/fondo4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
