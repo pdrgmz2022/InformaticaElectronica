@@ -4,13 +4,22 @@
     color: blue;
 }
 
- #logo{
+ #logoheader{
     width: 90px;
     height: auto;
     margin-left: 10px;
-    text-align: center;
-    align-items: center;
+    text-align:center ;
+    align-items: left;
 } 
+#logofooter{
+    width: 90px;
+    height: auto;
+    margin-left: 10px; 
+    text-align:left ;
+    align-items: left;
+} 
+
+
 
 .social-icon {
     width: 40px; /* Ajusta el tamaño de los iconos de redes sociales según sea necesario */
