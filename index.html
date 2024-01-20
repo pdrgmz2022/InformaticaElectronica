@@ -28,8 +28,9 @@
         <link  rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
         <script src="./static/js/script.js"></script>
     </head>
-
+    <!-----------------------------------------comienzo del body ---------------------------------------------------->
     <body>
+         <!-------------------------------------comienzo del header ------------------------------------------------->
         <header class="bg-black text-light fixed-top col-12 col-md-12 text-center">
             <div class="">
                 <div class="row align-items-center">
@@ -59,7 +60,7 @@
                                         <a class="nav-link" href="./templates/servicios.html">Servicios</a>
                                     </li>
                                     <li class="nav-item ">
-                                      <a class="nav-link" href="./templates/servicios.html">Nosotros</a>
+                                      <a class="nav-link" href="./templates/nosotros.html">Nosotros</a>
                                     </li>
                                     <li class="nav-item ">
                                         <a class="nav-link" href="./templates/contacto.html">Contacto</a>
@@ -78,9 +79,10 @@
                 </div>
             </div>
         </header>
+        <!----------------------------------------------------fin del header ------------------------------------------>
           <br>
          
-         
+         <!----------------------------------------------------comienzo del carrousel  -------------------------------------->
         <main>
 
             <div id="carouselExampleCaptions" class="carousel slide">
@@ -189,79 +191,111 @@
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
-
+              <!-----------------------------------------comienzo de los titulos de articulos -------------------------->
               
             <div class="mt-1 text-center ">
                 <p class="fs-3 bg-info fs-1 fw-bold" >ARTÍCULOS</p>
                 
             </div>
-
-            <div class="card-group">
-                <div class="card">
+            <!-------------------------------------------comienzo del primer grupo de cards ---------------------------->
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card h-100">
                   <img src="./static/img/IMG_6137.JPG" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title text-center">ELECTRONICA</h5>
-                    <p class="card-text text-justify">Mantenedor de comidas calientes, pizzas y empandas para negocio , usado como nuevo, con regulador de temperatura cuyas medidas son largo de frente: 1,10 m , alto : 0,63m , ancho:0,82m muy poco uso en zona de Villa Luro CABA $650.000</p>
-                    <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
+                    <h5 class="card-title text-center">ELECTRÓNICA</h5>
+                    <p class="card-text" id="justificar">Mantenedor de comidas calientes, pizzas y empandas para negocio , usado como nuevo, con regulador de temperatura cuyas medidas son largo de frente: 1,10 m , alto : 0,63m , ancho:0,82m muy poco uso en zona de Villa Luro CABA $650.000</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-body-secondary">Last updated 3 mins ago</small>
                   </div>
                 </div>
-                <div class="card">
+              </div>
+              <div class="col">
+                <div class="card h-100">
                   <img src="./static/img/IMG_63092.JPG" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title text-center">ELECTRODOMESTICOS</h5>
-                    <p class="card-text text-justify">Heladera Exhibidora Briket M4300 Tm Ls Hc A1 417 Lts , 5 meses de uso, usada como nueva, Villa Luro, CABA  , de frente 66cm , ancho 58cm, alto 206 cm $730.000</p>
-                    <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
+                    <h5 class="card-title text-center">ELECTRODOMÉSTICOS</h5>
+                    <p class="card-text" id="justificar">Heladera Exhibidora Briket M4300 Tm Ls Hc A1 417 Lts , 5 meses de uso, usada como nueva, Villa Luro, CABA  , de frente 66cm , ancho 58cm, alto 206 cm $730.000</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-body-secondary">Last updated 3 mins ago</small>
                   </div>
                 </div>
-                <div class="card">
+              </div>
+              <div class="col">
+                <div class="card h-100">
                   <img src="./static/img/IMG_6148.JPG" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title text-center">MOBILIARIO DE BAR</h5>
-                    <p class="card-text text-justify">3 MESAS de formica con 6 sillas reforzadas metalicas  usadas como nuevas zona Villa Luro CABA , las medidas de la mesa son largo:0,69m , ancho:0,69m $330.000</p>
-                    <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
+                    <p class="card-text" id="justificar">3 MESAS de formica con 6 sillas reforzadas metalicas  usadas como nuevas zona Villa Luro CABA , las medidas de la mesa son largo:0,69m , ancho:0,69m $330.000</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-body-secondary">Last updated 3 mins ago</small>
                   </div>
                 </div>
               </div>
+            </div>
+            
+            <!-----------------------------------------comienzo de los titulos de articulos -------------------------->
+
+
+            
+              <div class="m-0 text-center ">
+                <p class="fs-3 bg-info fs-1 fw-bold" >ARTÍCULOS</p>
+                
+              </div>
+
+              <!-------------------------------------------comienzo del segundo grupo de cards ---------------------------->
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./static/img/IMG_6270.JPG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">ARTICULOS VARIOS</h5>
+                      <p class="card-text" id="justificar">Cortadora de fiambres CUK  GADNIC  usada como nueva, muy poco uso, en caja, cuchilla 195mm, detalles tecnicos en manual, zona Villa Luro, CABA $390.000</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./static/img/disco1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">INFORMATICA</h5>
+                      <p class="card-text" id="justificar">This card has supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./static/img/IMG_6302.JPG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">ARTICULOS DEL HOGAR</h5>
+                      <p class="card-text" id="justificar">FREEZER  HORIZONTAL GAFA ETERNITY 410AB blanco 399L 220V  , poco uso como nuevo, zona Villa Luro  CABA $800.000</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-----------------------------------------comienzo de los titulos de articulos -------------------------->
+
 
               <div class="m-0 text-center ">
                 <p class="fs-3 bg-info fs-1 fw-bold" >ARTÍCULOS</p>
                 
               </div>
 
-              <div class="card-group">
-                <div class="card">
-                  <img src="./static/img/IMG_6270.JPG" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title text-center">ARTICULOS VARIOS</h5>
-                    <p class="card-text text-justify">Cortadora de fiambres CUK  GADNIC  usada como nueva, muy poco uso, en caja, cuchilla 195mm, detalles tecnicos en manual, zona Villa Luro, CABA $390.000</p>
-                    <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
-                  </div>
-                </div>
-                <div class="card">
-                  <img src="./static/img/disco1.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title text-center">INFORMATICA</h5>
-                    <p class="card-text text-justify">This card has supporting text below as a natural lead-in to additional content.</p>
-                    <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
-                  </div>
-                </div>
-                <div class="card">
-                  <img src="./static/img/IMG_6302.JPG" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title text-center">ARTICULOS DEL HOGAR</h5>
-                    <p class="card-text text-justify">FREEZER  HORIZONTAL GAFA ETERNITY 410AB blanco 399L 220V  , poco uso como nuevo, zona Villa Luro  CABA $800.000.</p>
-                    <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
-                  </div>
-                </div>
-                
-              </div>
 
-
-              <div class="m-0 text-center ">
-                <p class="fs-3 bg-info fs-1 fw-bold" >ARTÍCULOS</p>
-                
-              </div>
-
+              <!-------------------------------------------ultimo grupo de cards --------------------------------------->
               <div class="card-group">
                 
                 <div class="card">
@@ -274,11 +308,7 @@
                 </div>
               </div>
 
-
-
-
-
-
+              <!-----------------------------------------comienzo del cuadro deslizante -------------------------------->
               <section id="lugar-y-fecha" class="container-fluid p-0 overflow-hidden ">
               
                 <div class="row p-0  d-flex" id="cuadro">
@@ -296,6 +326,7 @@
               </section>
 
         </main>
+        <!---------------------------------------------comienzo del footer --------------------------------------------->
         <footer class="bg-black text-light ">
                     <div class="">
                         <div class="row ">
@@ -307,7 +338,7 @@
                             </div>
                             <div class="col-md-7 text-center">
                                 <!-- Datos de la empresa -->
-                                <h1>Informática y Electrónica PJL</h1>
+                                <h1 id="textofooter">Informática y Electrónica PJL</h1>
                                 <p>Villa Luro - Cuidad Autónoma de Buenos Aires</p>
                         
                             </div>
